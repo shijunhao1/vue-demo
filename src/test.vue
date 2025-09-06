@@ -4,7 +4,7 @@
 </template>
 
 <script setup>
-
+const a  = ()=>{}
 </script>
 
 <style scoped>
