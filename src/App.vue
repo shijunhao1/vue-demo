@@ -278,16 +278,16 @@ const options = [
   { val: "man", label: "男" },
   { val: "woman", label: "女" },
 ];
-const sumbit = async () => {
-  try {
-    const response = await axios.post("xxxxxxx", form);
-    alert(`请求成功,返回${response.data}`);
-  } catch (error) {
-    alert(error);
-  }finally{
+// const sumbit = async () => {
+//   try {
+//     const response = await axios.post("xxxxxxx", form);
+//     alert(`请求成功,返回${response.data}`);
+//   } catch (error) {
+//     alert(error);
+//   }finally{
     
-  }
-};
+//   }
+// };
 </script>
 
 <style scoped>
